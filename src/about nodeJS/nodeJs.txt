@@ -14,6 +14,9 @@
 
 - Node.js runs single-threaded, non-blocking, asynchronously programming, which is very memory efficient.
 
+- NodeJS works asynchronously by using philosophy of callbacks.
+    It calls the callback functions as soon as the operation being executed is finished!
+
 - Here is how PHP or ASP handles a file request:
 ------------------------------------------------
 1. Sends the task to the computer's file system.

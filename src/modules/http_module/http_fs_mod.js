@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
             if (err) res.end(err);
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(data);
-            console.log(data);
+            // console.log(data);
         });
     } else res.end("<h1> Error : 404 \n Not Found!!</h1>");
 });

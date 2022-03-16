@@ -1,0 +1,14 @@
+- NPM = node package manager
+- world's largest package repository
+- commands:
+    1. npm init
+    2. npm init -y
+
+__________________________
+Types of dependencies
+
+    1. Simple Dependency: required by code to run properly
+        npm install {dependency_name}
+
+    2. Dev Dependency: only required during development || code does't depends on them.
+        npm install {dependency_name} --save-dev

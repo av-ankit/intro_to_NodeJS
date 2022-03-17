@@ -1,0 +1,13 @@
+- Node works on event driven architecture.
+
+- Event is Emmited by Node
+- Event is listened 
+- Callbacks are triggered to handle the event
+
+eg: http module 
+        create server -> req recieved -> callback fired
+
+
+- Events are called in order they are declared
+
+- .emit() emits event & .on() listens to the event

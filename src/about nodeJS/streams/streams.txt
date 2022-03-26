@@ -1,0 +1,19 @@
+- Used to process (read & write) data, piece by piece(chunks).
+- working = read part of data, do something with it and repeat this until whole file is processed.
+- eg Youtube,netflix.
+- used when there is large data.
+
+______________________
+Types of Streams:
+
+1. Readble Streams: 
+    events = data,end
+    functions = pipe() {plug streams together}, read()
+
+2. Writable Streams:
+    events =  drain , finish
+    functions = write(), end()
+
+3. Duplex Streams: readbale + writable
+
+4. Transform Streams: duplex streams with moidification to data

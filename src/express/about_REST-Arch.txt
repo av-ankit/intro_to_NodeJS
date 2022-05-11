@@ -1,0 +1,13 @@
+- REST = Respresentational State Transfer
+
+- www.somewebsite.com/getUsers
+--------------------- --------
+        URL           endpoint
+
+- Endpoint should not have a verb.
+eg: getUser //wrong
+    users   //acceptable
+
+- REST API should be stateless.
+- Stateless = all state is handled on the client side.
+means: each request must contain all the info necessary to process a (next) certain request. The server should not have to remember the previous state.

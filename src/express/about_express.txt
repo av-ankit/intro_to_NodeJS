@@ -1,0 +1,8 @@
+- Express is a JS framework built in nodeJS.
+- Makes developing APIs easy.
+- also the most popular framework of nodeJS.
+- Good for:
+            request handling
+            Server Side Rendering
+
+- Allows user to organize the application in MVC architecture.

@@ -1,0 +1,8 @@
+- Promise Chaining = Promise.all()
+
+- eg: 
+        const pro1 = fetch.get('');
+        const pro2 = fetch.get('');
+        const pro3 = fetch.get('');
+
+        const all = await Promise.all([pro1,pro2,pro3])

@@ -1,0 +1,16 @@
+- Promises = a JavaScript object that links producing code and consuming code.
+
+- Promise Stages:
+    a. Pending = (undefined)
+    b. Resolved = (result value)
+    c. Rejected = (error object)
+
+- .then() = handles resolved promise (only result value)
+- .catch() = handles rejected promise (error object)
+
+* above both are callback functions
+
+- .then((res)=>{
+    does the next operation
+})
+

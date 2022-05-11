@@ -1,0 +1,5 @@
+- Callback Hell is a condition when we enter into multi-levels of callbacks ,i.e., callbacks inside callbacks!
+
+     each and every callback takes an argument that is a result of the previous callbacks. In this manner, The code structure looks like a pyramid!
+
+- Callback Hell leads to problems like poor readabilty and maintainabilty of code.

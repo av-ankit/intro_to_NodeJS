@@ -1,0 +1,23 @@
+- async/await is a syntactical sugar for promises. It makes the code more readable and maintainable.
+
+- async is wriiten before a function & denotes that the function works asynchronously.
+    eg: const add = async() =>{
+        //function body
+    }
+
+- await is written before a task and waits for the promise to get resolved. After promise is resolved it stores the value in given variable.
+    eg: const data = await getData()
+
+- ERROR HANDLING:
+     we CANNOT use catch functions directly with async/await, so we use try/catch.
+
+     eg:
+
+     const func = async()=>{
+         try{
+             const data = await getData();
+         }
+         catch (err){
+             //handle error
+         }
+     }

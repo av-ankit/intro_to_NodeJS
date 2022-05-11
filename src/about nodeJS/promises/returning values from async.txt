@@ -1,0 +1,17 @@
+- async functions return promise automatically.
+
+- If we simply return anything from async function it will return us promise stage.
+
+- If we want to access value returned from async functions then we need to consume it as promise.
+
+- e.g. : const func1 = async()=>{
+    <!-- returns something -->
+
+  }
+
+  x = func1(); <!-- wrong! returns promise stage -->
+
+  func1().then(x=>{
+  console.log(x)
+  })
+  <!-- correct above -->

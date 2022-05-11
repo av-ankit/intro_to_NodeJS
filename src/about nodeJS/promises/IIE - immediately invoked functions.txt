@@ -1,0 +1,13 @@
+- IIE = Immediately Invoked Functions;
+
+e.g. :
+
+    //function declared 
+    
+    (async()=>{
+        function code
+    });
+
+    //function called 
+
+    ();
